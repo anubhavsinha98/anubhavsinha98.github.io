@@ -5,28 +5,44 @@
 }
 body{
     background-color:var(--color1);
+    overflow: hidden;
 }
 
-.name{
+.anubhav-intro {
+    /* background-color: white; */
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.name {
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+.open-source {
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+
+.name span{
     color: var(--color2);
-    position: absolute;
     font-family: var(--font);
     font-size: 80px;
-    top: 30%;
-    left: 28%;
 }
 
-.open-source{
+.open-source span{
     color:var(--color2);
-    position: absolute;
     font-family: var(--font);
     font-size:35px;
-    top:40%;
-    left: 27%;    
 }
 
-.social-media
-{
+.social-media {
     /* border: white solid 5px; */
     /* text-align: center; */
     height: 20%;
@@ -34,32 +50,31 @@ body{
     top:60%;
 }
 
-.social-media li
-{
+.social-media li {
     /* position: absolute; */
     /* left:25%;  */
     display: inline;
     padding:10px 28px;
 }
 
-.social-media img:hover{
+.social-media img:hover {
     cursor: pointer;
     box-shadow: 0 0 15px var(--color2);
     transition: 0.5s;
 }
-.social-media-linkedin{
+.social-media-linkedin {
     width: 32px;
     height: 32px;
 }
-.social-media-github{
+.social-media-github {
     position: absolute;
     left:60%;
 }
-.social-media-facebook{
+.social-media-facebook {
     position: absolute;
     left:50%;
 }
-.social-media-linkedin{
+.social-media-linkedin {
     position: absolute;
     left:40%;
 }

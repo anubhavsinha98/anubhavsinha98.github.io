@@ -56,6 +56,12 @@ body{
     padding: 5%;
 }
 
+.my-resume a{
+  color:var(--color2);
+  font-family: var(--font);
+  font-size: 150%;
+}
+
 a {
     text-decoration: none;
 }

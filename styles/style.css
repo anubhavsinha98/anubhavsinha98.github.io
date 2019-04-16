@@ -3,6 +3,7 @@
     --color2:#EC4D37;
     --font: 'Poppins', sans-serif;
 }
+
 body{
     background-color:var(--color1);
     overflow: hidden;
@@ -24,7 +25,7 @@ body{
     top: 20%;
     text-align: center; */
     display: block;
-    padding: 5px;
+    padding: 15px;
     word-wrap: break-word;
 }
 
@@ -51,38 +52,43 @@ body{
 }
 
 .social-media {
-    /* border: white solid 5px; */
-    /* text-align: center; */
-    height: 20%;
-    position: relative;
-    top:60%;
+    display: block;
+    padding: 5%;
 }
 
-.social-media li {
-    /* position: absolute; */
-    /* left:25%;  */
-    display: inline;
-    padding:10px 28px;
+a {
+    text-decoration: none;
 }
 
-.social-media img:hover {
-    cursor: pointer;
-    box-shadow: 0 0 15px var(--color2);
-    transition: 0.5s;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
-.social-media-linkedin {
-    width: 32px;
-    height: 32px;
+
+.fa:hover {
+    opacity: 0.7;
 }
-.social-media-github {
-    position: absolute;
-    left:60%;
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
-.social-media-facebook {
-    position: absolute;
-    left:50%;
+
+.fa-quora {
+    background: #bb0000;
+    color: white;
 }
-.social-media-linkedin {
-    position: absolute;
-    left:40%;
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
 }

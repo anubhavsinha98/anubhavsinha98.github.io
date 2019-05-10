@@ -43,7 +43,14 @@ body{
     padding: 5%;
 }
 
-.my-resume a{
+.my-resume {
+    margin: auto;
+    border: 1px solid white;
+    width: 10%;
+    padding: 10px 0px;
+    word-wrap: break-word;
+}
+.my-resume a {
   color:var(--color2);
   font-family: var(--font);
   font-size: 150%;

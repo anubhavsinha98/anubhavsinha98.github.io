@@ -50,6 +50,14 @@ body{
     padding: 10px 0px;
     word-wrap: break-word;
 }
+
+.my-resume:hover {
+    background-color: white;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
 .my-resume a {
   color:var(--color2);
   font-family: var(--font);

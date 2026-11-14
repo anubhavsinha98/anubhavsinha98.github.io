@@ -3,108 +3,143 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f4ef">
-  <title>Anubhav Sinha — Backend systems & AI infrastructure</title>
-  <meta name="description" content="Anubhav Sinha is a Senior Software Engineer at LinkedIn, previously at Amazon. Building backend services, production ML inference systems, and LocalJot.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Anubhav Sinha — Software engineer</title>
+  <meta name="description" content="The personal website of Anubhav Sinha. Senior Software Engineer at LinkedIn, previously Amazon. Projects, experience, and writing on backend systems and production AI.">
   <link rel="canonical" href="https://anubhavsinha98.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Anubhav Sinha — Backend systems. AI in production.">
-  <meta property="og:description" content="Senior Software Engineer at LinkedIn. Previously Amazon. Builder of LocalJot and an open-source contributor.">
+  <meta property="og:title" content="Anubhav Sinha — Software engineer">
+  <meta property="og:description" content="A little about me, the things I build, and the work along the way. Currently LinkedIn, previously Amazon.">
   <meta property="og:url" content="https://anubhavsinha98.github.io/">
-  <meta property="og:image" content="https://anubhavsinha98.github.io/assets/social-preview.png">
+  <meta property="og:image" content="https://anubhavsinha98.github.io/assets/social-preview.png?v=20261114c">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles/style.css?v=20261114b">
-  <script src="app.js?v=20261114b" defer></script>
+  <link rel="stylesheet" href="styles/style.css?v=20261114c">
+  <script src="app.js?v=20261114c" defer></script>
 </head>
-<body>
+<body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container nav-row">
-      <a class="brand" href="#top" aria-label="Anubhav Sinha, home"><span class="brand-mark">as<span>.</span></span><span class="brand-name">Anubhav Sinha</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
-      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-        <a href="#work">Selected work</a>
-        <a href="#experience">Experience</a>
-        <a href="#about">About</a>
-        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+  <div class="site-layout">
+    <aside class="sidebar" aria-label="Profile and navigation">
+      <a class="identity" href="#about" aria-label="Anubhav Sinha, about">
+        <img class="avatar" src="assets/anubhav.jpg" width="44" height="44" alt="Anubhav's GitHub avatar">
+        <span class="identity-text"><strong>Anubhav Sinha</strong><span>Software engineer</span></span>
+      </a>
+      <p class="location"><span aria-hidden="true">↳</span> Bengaluru, India</p>
+      <nav class="page-nav" aria-label="On this page">
+        <a href="#about" aria-current="location"><span class="nav-dot" aria-hidden="true"></span>About</a>
+        <a href="#work"><span class="nav-dot" aria-hidden="true"></span>Projects</a>
+        <a href="#experience"><span class="nav-dot" aria-hidden="true"></span>Experience</a>
+        <a href="#writing"><span class="nav-dot" aria-hidden="true"></span>Writing</a>
+        <a href="#contact"><span class="nav-dot" aria-hidden="true"></span>Contact</a>
       </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero container" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ENGINEER & INDEPENDENT BUILDER</p>
-        <h1 id="hero-title">Backend systems.<br><em>AI in production.</em></h1>
-        <p class="hero-intro">I'm Anubhav. I build services that bring machine learning into the real world — and useful software for everyday work.</p>
-        <p class="current-role">Senior Software Engineer at <strong>LinkedIn</strong><span>Previously Amazon · Bengaluru, India</span></p>
-        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="https://www.linkedin.com/in/anubhav-sinha-34b40531/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></div>
+      <div class="sidebar-links" aria-label="Find me elsewhere">
+        <a href="https://github.com/anubhavsinha98" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/anubhavsinha98/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://medium.com/@anubhavsinha98" target="_blank" rel="noopener noreferrer">Medium <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="art-grid"></div>
-        <div class="art-label"><span class="tiny-cross">+</span> THE SPACE I BUILD IN</div>
-        <div class="system-stack">
-          <div class="system-layer layer-api"><span class="layer-number">01</span><div><small>THE FOUNDATION</small><strong>Backend services</strong></div><span class="layer-symbol">{ }</span></div>
-          <div class="layer-connector"><span></span><i></i></div>
-          <div class="system-layer layer-inference"><span class="layer-number">02</span><div><small>THE INTELLIGENCE</small><strong>Model serving</strong></div><svg viewBox="0 0 32 32" fill="none"><path d="M6 9L16 4L26 9V23L16 28L6 23V9Z M6 9L16 15L26 9 M16 15V28" stroke="currentColor" stroke-width="1.5"/></svg></div>
-          <div class="layer-connector"><span></span><i></i></div>
-          <div class="system-layer layer-product"><span class="layer-number">03</span><div><small>THE EVERYDAY IMPACT</small><strong>Useful products</strong></div><span class="layer-symbol"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      <p class="sidebar-note">A small corner of the internet.</p>
+    </aside>
+
+    <main id="main">
+      <section class="intro" id="about" aria-labelledby="intro-title">
+        <p class="section-label">A LITTLE ABOUT ME</p>
+        <h1 id="intro-title">Hello, I’m Anubhav<span class="name-dot">.</span></h1>
+        <p class="intro-lead">I’m a software engineer working on backend systems and production AI.</p>
+        <div class="prose">
+          <p>Currently a Senior Software Engineer at <a href="https://www.linkedin.com/in/anubhavsinha98/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, where I work on enterprise integrations, entity resolution, and MCP APIs for Sales Solutions.</p>
+          <p>Before that, I spent four years at <a href="#amazon">Amazon</a> building inference services for Search Science &amp; AI, including systems behind Rufus, Amazon’s AI shopping assistant.</p>
+          <p>My personal projects include <a href="#localjot">LocalJot</a> and <a href="#go-careers">Go Careers</a>. I also contributed to <a href="#oppia">Oppia</a> through Google Summer of Code.</p>
         </div>
-        <div class="art-footer"><span>Built with care.</span><span>From API to experience.</span></div>
-        <span class="orbit-dot orbit-one"></span><span class="orbit-dot orbit-two"></span>
-      </div>
-    </section>
+      </section>
 
-    <div class="experience-strip container" aria-label="Professional background">
-      <p>A FEW PLACES I'VE BUILT</p>
-      <div class="wordmark wordmark-linkedin">Linked<span>in</span></div>
-      <div class="wordmark wordmark-amazon">amazon<span aria-hidden="true">⌣</span></div>
-      <div class="wordmark wordmark-oppia"><span class="oppia-mark" aria-hidden="true">o</span> oppia<small>GSoC 2019</small></div>
-    </div>
-
-    <section class="section container" id="work" aria-labelledby="work-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Ideas, made useful.</h2></div><p>A personal product and a contribution<br class="desktop-break"> to learning in the open.</p></div>
-
-      <article class="project project-featured">
-        <div class="project-content">
-          <p class="project-kicker"><span class="project-icon localjot-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 11V21M13 6V26M18 10V22M23 13V19" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span> INDEPENDENT PRODUCT</p>
-          <h3>LocalJot<span class="project-period">.</span></h3>
-          <p class="project-deck">Your words. On your Mac.</p>
-          <p class="project-description">A local Mac app for dictation and meeting notes. A practical way to turn spoken thoughts into something you can work with.</p>
-          <div class="tags"><span>macOS</span><span>Dictation</span><span>Meeting notes</span></div>
-          <div class="project-actions"><a class="button button-dark" href="https://localjot.anubhavsinha98.chatgpt.site" target="_blank" rel="noopener noreferrer">Explore LocalJot <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><a class="text-link" href="https://github.com/anubhavsinha98/localjot-feedback" target="_blank" rel="noopener noreferrer">Public feedback <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></div>
+      <section class="content-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><h2 id="work-title">Things I’ve built</h2><span class="section-aside">Projects &amp; open source</span></div>
+        <div class="project-list">
+          <article class="project-row" id="localjot">
+            <span class="entry-number" aria-hidden="true">01</span>
+            <div class="entry-body">
+              <div class="entry-heading"><h3>LocalJot</h3><span class="entry-kind">macOS app</span></div>
+              <p>A local Mac app for dictation and meeting notes. Turns spoken thoughts into text you can work with.</p>
+              <div class="entry-links">
+                <a href="https://localjot.anubhavsinha98.chatgpt.site" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/anubhavsinha98/localjot-feedback" target="_blank" rel="noopener noreferrer">Feedback &amp; discussions <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-row" id="go-careers">
+            <span class="entry-number" aria-hidden="true">02</span>
+            <div class="entry-body">
+              <div class="entry-heading"><h3>Go Careers</h3><span class="entry-kind">Job search &amp; alerts</span></div>
+              <p>Built a job aggregator and a paid Telegram bot for targeted job alerts. Grew the website to 2,000+ daily views and the bot to 1,000+ users.</p>
+              <p class="tech-line">Python · Django · React · AWS</p>
+              <div class="entry-links"><a href="https://github.com/go-careers/go-careers.github.io" target="_blank" rel="noopener noreferrer">Project repository <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+          <article class="project-row" id="oppia">
+            <span class="entry-number" aria-hidden="true">03</span>
+            <div class="entry-body">
+              <div class="entry-heading"><h3>Oppia</h3><span class="entry-kind">Google Summer of Code</span></div>
+              <p>Helped learners explain the reasoning behind incorrect answers, giving lesson creators a clearer view of student misconceptions.</p>
+              <p class="tech-line">Python · Angular · Open source</p>
+              <div class="entry-links">
+                <a href="https://github.com/oppia/oppia/pull/7052" target="_blank" rel="noopener noreferrer">A contribution <span aria-hidden="true">↗</span></a>
+                <a href="https://anubhavsinha98.medium.com/gsoc19-journey-oppia-308704ffa3a" target="_blank" rel="noopener noreferrer">The story <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="localjot-art" aria-hidden="true">
-          <div class="voice-ring ring-one"></div><div class="voice-ring ring-two"></div>
-          <div class="voice-card"><div class="voice-card-top"><div class="window-dots"><i></i><i></i><i></i></div><span>LocalJot</span><span class="local-symbol"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="waveform"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p>Less typing.<br><em>More thinking.</em></p><div class="voice-card-footer"><span class="small-dot"></span><span>DICTATION & MEETING NOTES</span></div></div>
-          <div class="floating-label"><span aria-hidden="true">⌘</span> Made for the Mac.</div>
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading"><h2 id="experience-title">Along the way</h2><span class="section-aside">Experience</span></div>
+        <div class="career-list">
+          <article class="career-entry">
+            <div class="timeline"><span class="timeline-dot current" aria-hidden="true"></span><p><time datetime="2025-12">Dec 2025</time><span>— Present</span></p></div>
+            <div class="entry-body">
+              <div class="entry-heading"><h3>LinkedIn</h3><span class="current-note">Now</span></div>
+              <p class="role">Senior Software Engineer</p>
+              <p>Led the Gong and Outreach sales-engagement integration across five services. Built APIs for the Sales Solutions MCP server and owned entity-resolution evaluation and match quality.</p>
+              <details class="work-details">
+                <summary>A few more details <span aria-hidden="true">+</span></summary>
+                <div class="details-content"><ul><li>Drove integration architecture and delivery for workflows used by over a million sellers.</li><li>Introduced ground-truth-based evaluation to measure and track match accuracy.</li><li>Built a Claude session manager and reusable skills for the team’s internal AI workflows.</li></ul></div>
+              </details>
+              <p class="tech-line">Java · Temporal · Python</p>
+            </div>
+          </article>
+          <article class="career-entry" id="amazon">
+            <div class="timeline"><span class="timeline-dot" aria-hidden="true"></span><p><time datetime="2021-08">Aug 2021</time><span>— Dec 2025</span></p></div>
+            <div class="entry-body">
+              <div class="entry-heading"><h3>Amazon</h3></div>
+              <p class="role">Software Development Engineer II · Search Science &amp; AI</p>
+              <p>Built backend inference services for query understanding and Rufus. Worked on model onboarding, evaluation, quantization, and the path from a trained model to a production service.</p>
+              <details class="work-details">
+                <summary>A few more details <span aria-hidden="true">+</span></summary>
+                <div class="details-content"><ul><li>Onboarded six deep-learning models, reaching 95% query coverage.</li><li>Reduced inference latency and infrastructure costs by 50% through quantization.</li><li>Added precision and recall evaluation, integration tests, and load and stress tests to deployment pipelines.</li><li>Mentored two interns who went on to full-time roles.</li></ul></div>
+              </details>
+              <p class="tech-line">Python · Java · AWS · CDK</p>
+            </div>
+          </article>
+          <article class="career-entry">
+            <div class="timeline"><span class="timeline-dot" aria-hidden="true"></span><p><time datetime="2019-02">Feb 2019</time><span>— Oct 2019</span></p></div>
+            <div class="entry-body"><div class="entry-heading"><h3>Google Summer of Code</h3></div><p class="role">Open Source Developer · Oppia</p><p>Worked on the learner answer-details experience, connecting students’ explanations with feedback that lesson creators could use.</p><p class="tech-line">Python · Angular</p></div>
+          </article>
         </div>
-      </article>
+        <div class="education"><span class="small-label">Education</span><div><p>Jaypee Institute of Information Technology</p><span>B.Tech. in Computer Science · 2017–2021</span></div></div>
+      </section>
 
-      <article class="project project-opensource">
-        <div class="opensource-mark" aria-hidden="true"><span>{</span><svg viewBox="0 0 80 80" fill="none"><path d="M40 15C25 8 11 13 11 13V60C11 60 25 55 40 64C55 55 69 60 69 60V13C69 13 55 8 40 15ZM40 15V64" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M20 26C25 25 28 26 32 28M20 36C25 35 28 36 32 38M48 28C53 26 56 25 61 26M48 38C53 36 56 35 61 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>}</span></div>
-        <div class="opensource-copy"><p class="eyebrow">OPEN SOURCE / GOOGLE SUMMER OF CODE 2019</p><h3>Helping learners explain their thinking.</h3><p>Contributed to Oppia's learner answer-details and creator workflows, including backend controllers and API integration.</p><div class="tags"><span>Oppia</span><span>Education</span><span>Open source</span></div></div>
-        <a class="circle-link" href="https://github.com/oppia/oppia/pull/7052" target="_blank" rel="noopener noreferrer" aria-label="View Anubhav's Oppia contribution on GitHub"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-      </article>
-    </section>
+      <section class="content-section" id="writing" aria-labelledby="writing-title">
+        <div class="section-heading"><h2 id="writing-title">Writing</h2><a class="quiet-link section-aside" href="https://medium.com/@anubhavsinha98" target="_blank" rel="noopener noreferrer">More on Medium <span aria-hidden="true">↗</span></a></div>
+        <a class="writing-entry" href="https://anubhavsinha98.medium.com/gsoc19-journey-oppia-308704ffa3a" target="_blank" rel="noopener noreferrer"><div><h3>My GSoC ’19 journey with Oppia</h3><p>Building with an open-source community.</p></div><span class="writing-arrow" aria-hidden="true">↗</span></a>
+      </section>
 
-    <section class="experience-section" id="experience" aria-labelledby="experience-title">
-      <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">Built for the real world.</h2></div><p>Backend engineering, production inference,<br class="desktop-break"> and the work that makes them dependable.</p></div>
-        <div class="career-row"><div class="career-side"><span class="career-state">CURRENT</span><h3>LinkedIn</h3><p>Senior Software Engineer</p></div><div class="career-main"><h4>Connecting enterprise systems.</h4><p>Backend APIs, enterprise integrations, and Model Context Protocol (MCP) tooling for Sales Solutions.</p><div class="tags"><span>Backend APIs</span><span>Enterprise integrations</span><span>MCP</span></div><details><summary>My engineering focus <span aria-hidden="true">+</span></summary><div class="details-body"><p>I work on service integrations and APIs that connect enterprise workflows, including APIs for the Sales Solutions MCP server. My experience also includes entity resolution and evaluation.</p></div></details></div></div>
-        <div class="career-row"><div class="career-side"><span class="career-state">PREVIOUSLY</span><h3>Amazon</h3><p>Software Development Engineer<br>Search Science & AI</p></div><div class="career-main"><h4>Bringing models into production.</h4><p>Production deep-learning inference services, evaluation frameworks, and performance optimization for search.</p><div class="tags"><span>Model serving</span><span>NVIDIA Triton</span><span>Evaluation</span></div><details><summary>My engineering focus <span aria-hidden="true">+</span></summary><div class="details-body"><p>My contributions included Python preprocessing and postprocessing, Triton inference integration, model onboarding, and benchmarking. I worked with dynamic batching and model optimization, including quantization, to balance throughput, latency, quality, and infrastructure cost.</p><p>Evaluation guardrails, load testing, and monitoring were part of making those systems dependable in production.</p></div></details></div></div>
-      </div>
-    </section>
-
-    <section class="section about-section container" id="about" aria-labelledby="about-title">
-      <div class="about-copy"><p class="eyebrow">03 / A LITTLE ABOUT ME</p><h2 id="about-title">Curious about the details.<br><em>Focused on the outcome.</em></h2><p>I'm a software engineer based in Bengaluru, working across backend systems and production machine learning.</p><p>I care about the gap between a model that works in a notebook and a service people can depend on. That means looking closely at evaluation, latency, cost, and what happens when things fail.</p><p>Outside my day job, I build practical software like LocalJot and stay connected to open source.</p><a class="text-link" href="https://medium.com/@anubhavsinha98" target="_blank" rel="noopener noreferrer">Find my writing on Medium <span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></div>
-      <aside class="toolbox" aria-labelledby="toolbox-title"><div class="toolbox-heading"><h3 id="toolbox-title">My working toolkit</h3><span aria-hidden="true"><svg class="icon-arrow arrow-down-left" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><dl><div><dt>LANGUAGES</dt><dd>Python <span>Java</span></dd></div><div><dt>MODEL SERVING</dt><dd>NVIDIA Triton</dd></div><div><dt>INFRASTRUCTURE</dt><dd>AWS <span>Docker</span> <span>Linux</span></dd></div><div><dt>SERVICE COMMUNICATION</dt><dd>HTTP <span>gRPC</span></dd></div></dl><p class="toolbox-note">The right tool starts with understanding the problem.</p></aside>
-    </section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><div><p class="eyebrow">04 / SAY HELLO</p><h2 id="contact-title">Good systems start<br>with a <em>conversation.</em></h2><p>Building something interesting in backend systems,<br class="desktop-break"> model serving, or practical AI? Let's connect.</p></div><a class="contact-orb" href="https://www.linkedin.com/in/anubhav-sinha-34b40531/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"><svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Let's talk<br>on LinkedIn</span></a></div></section>
-  </main>
-
-  <footer class="container site-footer"><a class="brand footer-brand" href="#top" aria-label="Back to top"><span class="brand-mark">as<span>.</span></span><span>© <span id="year">2026</span> Anubhav Sinha</span></a><div class="footer-links"><a href="https://github.com/anubhavsinha98" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a href="https://medium.com/@anubhavsinha98" target="_blank" rel="noopener noreferrer">Medium <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M5 5H19V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a href="#top">Back to top ↑</a></div></footer>
+      <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Say hello</h2>
+        <p>Have something to share, or want to talk engineering?<br class="desktop-break"> Find me on <a href="https://www.linkedin.com/in/anubhavsinha98/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>.</p>
+        <p class="contact-secondary">For projects and open-source work, I’m on <a href="https://github.com/anubhavsinha98" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a> too.</p>
+      </section>
+      <footer class="site-footer"><span>© <span id="year">2026</span> Anubhav Sinha</span><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
+    </main>
+  </div>
 </body>
 </html>

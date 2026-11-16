@@ -18,13 +18,15 @@ Open `http://localhost:8000`.
 
 - `index.html`: page content, project links, and search/social metadata.
 - `styles/style.css`: responsive styles, reduced-motion support, and print layout.
-- `app.js`: active-section navigation and footer year.
+- `app.js`: active-section navigation, automatically updated experience duration, and footer year.
 - `assets/anubhav.jpg`: Anubhav's public GitHub avatar.
 - `assets/logos/`: original company, program, project, and social logos; see `assets/logos/SOURCES.md` for their sources.
 - `assets/favicon.svg`: browser icon.
 - `assets/social-preview.svg` and `assets/social-preview.png`: social sharing artwork. Regenerate the PNG after changing the SVG.
 
 The page uses system fonts, semantic HTML, and native expandable experience details. Mobile navigation stays visible without a menu toggle. The core content and links work without JavaScript. There are no analytics, tracking scripts, or third-party runtime dependencies.
+
+The experience label uses the full-time career start month, August 2021, configured through `data-start-year` and `data-start-month` in `index.html`. It calculates calendar years and months in the `Asia/Kolkata` timezone on page load, on return to the page, and hourly while open. The calculation has month-level precision and excludes internships and GSoC. Without JavaScript, the start month stays visible.
 
 The structure draws inspiration from [Paco Coursey's clarity](https://paco.me/), [Lee Robinson's personal introduction and writing](https://leerob.com/), and [Rauno Freiberg's interaction details](https://rauno.me/). The implementation, copy, and layout are original; no reference site's code or artwork is reused.
 

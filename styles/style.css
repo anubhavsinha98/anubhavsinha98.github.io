@@ -43,6 +43,8 @@ section[id], article[id] { scroll-margin-top: 56px; }
 .section-label { margin-bottom: 17px; color: var(--muted); font: 10px/1.7 var(--mono); letter-spacing: 1.5px; }
 h1 { font-size: clamp(32px, 3.5vw, 44px); line-height: 1.2; letter-spacing: -1.8px; font-weight: 550; }
 .name-dot { color: var(--accent); }
+.experience-note { margin-top: 12px; color: var(--body); font-size: 12px; line-height: 1.7; }
+.experience-since { color: var(--muted); white-space: nowrap; }
 .intro-lead { margin: 24px 0 23px; color: var(--ink); font-size: 20px; line-height: 1.6; letter-spacing: -.3px; max-width: 540px; }
 .prose p + p { margin-top: 15px; }
 .prose a, .contact-section p a { color: var(--ink); text-decoration: underline; text-decoration-color: #c7c7cb; }

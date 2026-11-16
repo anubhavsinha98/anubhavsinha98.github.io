@@ -3,6 +3,46 @@
 const year = document.querySelector('#year');
 if (year) year.textContent = String(new Date().getFullYear());
 
+const experienceCounter = document.querySelector('#experience-duration');
+const experienceCalendar = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'Asia/Kolkata',
+  year: 'numeric',
+  month: 'numeric',
+});
+
+function formatProfessionalExperience(now = new Date()) {
+  const fallback = 'Full-time engineering experience';
+  if (!experienceCounter) return fallback;
+
+  const startYear = Number(experienceCounter.dataset.startYear);
+  const startMonth = Number(experienceCounter.dataset.startMonth);
+  if (!Number.isInteger(startYear) || !Number.isInteger(startMonth) || startMonth < 1 || startMonth > 12) return fallback;
+
+  const calendar = experienceCalendar.formatToParts(now);
+  const currentYear = Number(calendar.find(part => part.type === 'year').value);
+  const currentMonth = Number(calendar.find(part => part.type === 'month').value);
+  const totalMonths = (currentYear - startYear) * 12 + currentMonth - startMonth;
+  if (totalMonths < 0) return fallback;
+
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+  const duration = [];
+  if (years) duration.push(years + (years === 1 ? ' year' : ' years'));
+  if (months) duration.push(months + (months === 1 ? ' month' : ' months'));
+  return duration.length ? duration.join(', ') + ' of full-time experience' : 'Less than a month of full-time experience';
+}
+
+function updateProfessionalExperience() {
+  if (experienceCounter) experienceCounter.textContent = formatProfessionalExperience();
+}
+
+updateProfessionalExperience();
+window.setInterval(updateProfessionalExperience, 60 * 60 * 1000);
+window.addEventListener('pageshow', updateProfessionalExperience);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) updateProfessionalExperience();
+});
+
 const sections = [...document.querySelectorAll('main > section[id]')];
 const links = [...document.querySelectorAll('.page-nav a')];
 let scheduled = false;

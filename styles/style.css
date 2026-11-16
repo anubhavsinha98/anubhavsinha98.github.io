@@ -35,8 +35,9 @@ section[id], article[id] { scroll-margin-top: 56px; }
 .page-nav a:hover, .page-nav a[aria-current] { color: var(--ink); }
 .page-nav a[aria-current] .nav-dot { background: var(--accent); }
 .sidebar-links { display: flex; flex-direction: column; gap: 7px; padding-left: 15px; font-size: 12px; }
-.sidebar-links a { width: fit-content; }
-.sidebar-links a > span { display: inline-block; margin-left: 5px; color: var(--muted); font-size: 12px; }
+.sidebar-links a { display: inline-flex; align-items: center; gap: 6px; width: fit-content; }
+.sidebar-links a > span { display: inline-block; margin-left: 0; color: var(--muted); font-size: 12px; }
+.social-logo { width: 18px; height: 18px; flex: 0 0 18px; object-fit: contain; }
 .sidebar-links a:hover { color: var(--accent); }
 .sidebar-note { margin: 55px 0 0 15px; color: var(--muted); font-size: 10px; }
 .section-label { margin-bottom: 17px; color: var(--muted); font: 10px/1.7 var(--mono); letter-spacing: 1.5px; }
@@ -53,11 +54,13 @@ h1 { font-size: clamp(32px, 3.5vw, 44px); line-height: 1.2; letter-spacing: -1.8
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 26px; }
 h2 { font-size: 17px; line-height: 1.5; letter-spacing: -.3px; }
 .section-aside { color: var(--muted); font-size: 11px; white-space: nowrap; }
-.project-row { display: grid; grid-template-columns: 23px minmax(0, 1fr); gap: 15px; padding: 0 0 26px; }
+.project-row { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 15px; padding: 0 0 26px; }
 .project-row + .project-row { padding-top: 27px; border-top: 1px solid var(--line); }
 .project-row:last-child { padding-bottom: 0; }
-.entry-number { padding-top: 2px; color: var(--muted); font: 10px/2 var(--mono); }
+.project-logo { width: 28px; height: 28px; object-fit: contain; }
 .entry-heading { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.entry-heading h3 { display: inline-flex; align-items: center; gap: 8px; }
+.company-logo { width: 24px; height: 24px; flex: 0 0 24px; object-fit: contain; }
 h3 { font-size: 15px; line-height: 1.6; letter-spacing: -.15px; }
 .entry-kind { color: var(--muted); font-size: 11px; }
 .entry-body > p { margin-top: 8px; font-size: 15px; line-height: 1.8; }
@@ -133,7 +136,7 @@ h3 { font-size: 15px; line-height: 1.6; letter-spacing: -.15px; }
   .section-heading { gap: 10px; margin-bottom: 23px; }
   .section-aside { font-size: 9px; }
   h2 { font-size: 16px; }
-  .project-row { grid-template-columns: 18px minmax(0, 1fr); gap: 10px; }
+  .project-row { grid-template-columns: 28px minmax(0, 1fr); gap: 10px; }
   .entry-heading { gap: 5px 10px; }
   .entry-kind { font-size: 10px; }
   .entry-body > p { font-size: 14px; line-height: 1.8; }

@@ -20,6 +20,7 @@ Open `http://localhost:8000`.
 - `styles/style.css`: responsive styles, reduced-motion support, and print layout.
 - `app.js`: active-section navigation and footer year.
 - `assets/anubhav.jpg`: Anubhav's public GitHub avatar.
+- `assets/logos/`: original company, program, project, and social logos; see `assets/logos/SOURCES.md` for their sources.
 - `assets/favicon.svg`: browser icon.
 - `assets/social-preview.svg` and `assets/social-preview.png`: social sharing artwork. Regenerate the PNG after changing the SVG.
 

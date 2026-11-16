@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#fff"/><path d="M310 88v454" stroke="#eaeaec"/>
   <circle cx="96" cy="115" r="5" fill="#c82c35"/>
-  <g fill="#737379" font-family="Arial,sans-serif" font-size="21"><text x="89" y="194">About</text><text x="89" y="238">Projects</text><text x="89" y="282">Experience</text><text x="89" y="326">Writing</text></g>
+  <g fill="#737379" font-family="Arial,sans-serif" font-size="21"><text x="89" y="194">About</text><text x="89" y="238">Experience</text><text x="89" y="282">Projects</text><text x="89" y="326">Writing</text></g>
   <text x="378" y="173" fill="#737379" font-family="monospace" font-size="15" letter-spacing="3">PERSONAL WEBSITE</text>
   <text x="374" y="267" fill="#242426" font-family="Arial,sans-serif" font-size="66" letter-spacing="-3">Anubhav Sinha<tspan fill="#c82c35">.</tspan></text>
-  <g fill="#505055" font-family="Arial,sans-serif" font-size="28"><text x="378" y="334">Software engineer.</text><text x="378" y="377">Backend systems &amp; production AI.</text></g>
+  <g fill="#505055" font-family="Arial,sans-serif" font-size="28"><text x="378" y="334">Backend, AI &amp; ML Engineering.</text><text x="378" y="377">MLOps &amp; DevOps.</text></g>
   <text x="378" y="459" fill="#737379" font-family="Arial,sans-serif" font-size="22">LinkedIn · Previously Amazon · Bengaluru</text>
   <path d="M378 491h716" stroke="#eaeaec"/><text x="378" y="528" fill="#737379" font-family="monospace" font-size="16">anubhavsinha98.github.io</text>
 </svg>

@@ -2,7 +2,7 @@
 
 Live at [anubhavsinha98.github.io](https://anubhavsinha98.github.io/).
 
-A personal, text-first portfolio covering backend engineering, production ML inference, independent projects, and open-source work. Experience and project details are grounded in the 2026 résumé supplied by Anubhav.
+A personal, text-first portfolio covering backend engineering, AI engineering, ML engineering, MLOps, and DevOps, alongside independent projects and open-source work. The introduction, work descriptions, and search/social metadata reflect these areas. Experience and project details are grounded in the 2026 résumé supplied by Anubhav.
 
 ## Run locally
 

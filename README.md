@@ -28,6 +28,6 @@ The page uses system fonts, semantic HTML, and native expandable experience deta
 
 The structure draws inspiration from [Paco Coursey's clarity](https://paco.me/), [Lee Robinson's personal introduction and writing](https://leerob.com/), and [Rauno Freiberg's interaction details](https://rauno.me/). The implementation, copy, and layout are original; no reference site's code or artwork is reused.
 
-The supplied résumé is used only as a private reference for work history. Do not publish résumé PDFs, telephone numbers, or private contact details. The résumé directory is ignored, the former PDF has been removed from the current published files, and contact links use public professional profiles.
+The supplied résumé is used only as a private reference for work history. Do not publish résumé PDFs, telephone numbers, or other private contact details. Anubhav has explicitly approved publishing `anubhavsinha98@gmail.com` as the contact email. The résumé directory is ignored, the former PDF has been removed from the current published files, and contact links use that email and public professional profiles.
 
 GitHub Pages serves this repository at its existing public address. Publish through the repository's configured Pages source.

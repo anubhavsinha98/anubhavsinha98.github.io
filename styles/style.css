@@ -125,7 +125,7 @@ h3 { font-size: 15px; line-height: 1.6; letter-spacing: -.15px; }
   .page-nav a { padding: 0; font-size: 11px; gap: 0; }
   .page-nav .nav-dot { display: none; }
   .page-nav a[aria-current] { color: var(--accent); }
-  .sidebar-links { grid-column: 1 / -1; grid-row: 4; flex-direction: row; gap: 21px; padding: 0; margin-top: 17px; font-size: 10px; }
+  .sidebar-links { grid-column: 1 / -1; grid-row: 4; flex-direction: row; flex-wrap: wrap; gap: 10px 21px; padding: 0; margin-top: 17px; font-size: 10px; }
   .sidebar-links a > span { margin-left: 2px; font-size: 10px; }
   .sidebar-note { display: none; }
   h1 { font-size: clamp(29px, 6.7vw, 38px); line-height: 1.23; letter-spacing: -1.25px; }

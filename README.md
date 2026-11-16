@@ -2,7 +2,7 @@
 
 Live at [anubhavsinha98.github.io](https://anubhavsinha98.github.io/).
 
-A personal, text-first portfolio covering backend engineering, AI engineering, ML engineering, MLOps, and DevOps, alongside independent projects and open-source work. The introduction, work descriptions, and search/social metadata reflect these areas. Experience and project details are grounded in the 2026 résumé supplied by Anubhav.
+A personal, text-first portfolio covering backend engineering, AI engineering, ML engineering, MLOps, and DevOps, alongside independent projects and open-source work. The introduction, work descriptions, and search/social metadata reflect these areas. Experience and project details are grounded in the 2026 résumé supplied by Anubhav and his subsequent updates, including Go Careers reaching 100,000+ daily website views and 10,000+ bot users.
 
 ## Run locally
 

@@ -10,5 +10,6 @@ These locally served assets identify the companies, programs, projects, and prof
 - `go-careers.jpg`: the [Go Careers organization's GitHub avatar](https://avatars.githubusercontent.com/u/48249709?v=4&s=128).
 - `github.png`: the [official GitHub mark](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png).
 - `medium.ico`: the [official Medium site icon](https://medium.com/favicon.ico).
+- `jiit.jpg`: the [official JIIT logo](https://www.jiit.ac.in/img/logo-new-mobile.jpg), used in the university website’s mobile header.
 
 Brand marks belong to their respective owners. Text labels provide the accessible names; adjacent logos are decorative to avoid repeating those names in screen readers.

@@ -70,6 +70,7 @@ h3 { font-size: 15px; line-height: 1.6; letter-spacing: -.15px; }
 .entry-links a span { margin-left: 3px; color: var(--muted); }
 .entry-body .tech-line { margin-top: 10px; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .career-entry { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 24px; padding-bottom: 35px; }
+.career-entry .entry-heading { align-items: center; }
 .career-entry:last-child { padding-bottom: 0; }
 .timeline { position: relative; padding-left: 17px; padding-top: 3px; }
 .timeline::after { content: ""; position: absolute; top: 16px; bottom: -26px; left: 3px; width: 1px; background: var(--line); }
@@ -78,7 +79,7 @@ h3 { font-size: 15px; line-height: 1.6; letter-spacing: -.15px; }
 .timeline-dot.current { background: var(--accent); border-color: var(--accent); }
 .timeline p { font-size: 10px; line-height: 1.8; color: var(--muted); white-space: nowrap; }
 .timeline p > span { display: block; }
-.current-note { font-size: 10px; color: var(--muted); }
+.current-note { font-size: 10px; line-height: 1; white-space: nowrap; color: var(--muted); }
 .entry-body > .role { margin-top: 1px; font-size: 11px; color: var(--muted); }
 .work-details { margin-top: 12px; }
 .work-details summary { display: flex; align-items: center; gap: 9px; width: fit-content; color: var(--muted); font-size: 11px; cursor: pointer; list-style: none; }

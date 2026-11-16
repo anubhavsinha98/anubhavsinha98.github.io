@@ -26,6 +26,8 @@ Open `http://localhost:8000`.
 
 The page uses system fonts, semantic HTML, and native expandable experience details. Mobile navigation stays visible without a menu toggle. The core content and links work without JavaScript. There are no analytics, tracking scripts, or third-party runtime dependencies.
 
+Section anchors use a single scroll offset. The sidebar scrolls with the page in short windows so its content stays reachable, and the footer link returns to the profile header. The navigation follows manual scrolling while keeping a clicked section selected when the final sections share the bottom of the page. Reduced-motion preferences disable smooth scrolling.
+
 The experience label uses the full-time career start month, August 2021, configured through `data-start-year` and `data-start-month` in `index.html`. It calculates calendar years and months in the `Asia/Kolkata` timezone on page load, on return to the page, and hourly while open. The calculation has month-level precision and excludes internships and GSoC. Without JavaScript, the start month stays visible.
 
 The structure draws inspiration from [Paco Coursey's clarity](https://paco.me/), [Lee Robinson's personal introduction and writing](https://leerob.com/), and [Rauno Freiberg's interaction details](https://rauno.me/). The implementation, copy, and layout are original; no reference site's code or artwork is reused.
